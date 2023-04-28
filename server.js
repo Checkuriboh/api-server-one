@@ -13,6 +13,10 @@ let corsOptions = {
 };
 app.use(cors(corsOptions));
 
+//body parser
+app.use(express.json());
+app.use(express.urlencoded({extended : true }));
+
 /*
 const router = express.Router();
 router.get('/',(req,res)=>{
