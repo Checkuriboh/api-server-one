@@ -1,6 +1,6 @@
 const TABLE = {
-    TODO: "todo",
-  };
-
-  module.exports = TABLE;
+  TODO: "todo",
   
+};
+
+module.exports = TABLE;
